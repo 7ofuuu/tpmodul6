@@ -7,5 +7,10 @@ class Program
     {
         SayaTubeVideo video = new SayaTubeVideo("Tutorial Design By Contract – Mohammad Ilham Firdaus");
         video.PrintVideoDetails();
+
+
+        video.IncreasePlayCount(5000);
+
+        video.PrintVideoDetails();
     }
 }
